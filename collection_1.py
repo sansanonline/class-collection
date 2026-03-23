@@ -13,8 +13,8 @@ name = st.text_input("姓名")
 student_id = st.text_input("学号")
 
 # 职务信息
-job = st.text_input("担任职务（如：班长、学生会干事）")
-department = st.text_input("所属单位（如：班级、院学生会、校团委）")
+job = st.text_input("担任职务（如：校青协部员、学生会干事）")
+department = st.text_input("所属单位（如：院学生会、校团委、校青协）")
 term = st.text_input("任职时间（如：2025.09-至今）（可选）")
 
 remark = st.text_input("备注（可选）")
@@ -51,7 +51,7 @@ st.subheader("🔐 管理员数据管理（仅本人操作）")
 
 # 1. 密码验证（你自己设一个密码，比如"123456"）
 admin_pwd = st.text_input("请输入管理员密码", type="password")
-correct_pwd = "123456"  # 这里改成你自己的密码！
+correct_pwd = "0254640"  # 这里改成你自己的密码！
 
 if admin_pwd == correct_pwd:
     st.success("✅ 管理员身份验证通过")
