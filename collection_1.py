@@ -44,11 +44,11 @@ if st.button("✅ 提交", use_container_width=True):
 
 # ---------------------- 管理员专属区（密码锁） ----------------------
 st.divider()
-st.subheader("🔐 管理员操作区（仅本人可见）")
+st.subheader("🔐 管理员操作区")
 
 # 1. 密码验证（改成你自己的密码，比如学号后6位）
 admin_pwd = st.text_input("请输入管理员密码", type="password")
-correct_pwd = "123456"  # 这里改成你的专属密码！
+correct_pwd = "0254640"  # 这里改成你的专属密码！
 
 if admin_pwd == correct_pwd:
     st.success("✅ 管理员身份验证通过")
