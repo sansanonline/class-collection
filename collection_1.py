@@ -13,8 +13,8 @@ name = st.text_input("姓名")
 student_id = st.text_input("学号")
 
 # 职务信息
-job = st.text_input("担任职务（如：班长、学生会干事）")
-department = st.text_input("所属单位（如：班级、院学生会、校团委）")
+job = st.text_input("担任职务（如：学生会干事、校青协部员）")
+department = st.text_input("所属单位（如：院学生会、校团委、校青协）")
 term = st.text_input("任职时间（如：2025.09-至今）（可选）")
 
 remark = st.text_input("备注（可选）")
